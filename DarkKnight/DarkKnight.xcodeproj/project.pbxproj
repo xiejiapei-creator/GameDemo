@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9DB416C25ADD75A008DE9C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB416B25ADD75A008DE9C2 /* AppDelegate.m */; };
+		E9DB416E25ADD75A008DE9C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9DB416D25ADD75A008DE9C2 /* GameScene.sks */; };
+		E9DB417025ADD75A008DE9C2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9DB416F25ADD75A008DE9C2 /* Actions.sks */; };
+		E9DB417325ADD75A008DE9C2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB417225ADD75A008DE9C2 /* GameScene.m */; };
+		E9DB417625ADD75A008DE9C2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB417525ADD75A008DE9C2 /* GameViewController.m */; };
+		E9DB417925ADD75A008DE9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DB417725ADD75A008DE9C2 /* Main.storyboard */; };
+		E9DB417B25ADD75C008DE9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DB417A25ADD75C008DE9C2 /* Assets.xcassets */; };
+		E9DB417E25ADD75C008DE9C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB417D25ADD75C008DE9C2 /* main.m */; };
+		E9DB418925ADD7E7008DE9C2 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9DB418725ADD7E7008DE9C2 /* background-music-aac.caf */; };
+		E9DB418A25ADD7E7008DE9C2 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9DB418825ADD7E7008DE9C2 /* pew-pew-lei.caf */; };
+		E9DB419025ADD843008DE9C2 /* ResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DB418F25ADD843008DE9C2 /* ResultScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9DB416725ADD75A008DE9C2 /* DarkKnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkKnight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DB416A25ADD75A008DE9C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9DB416B25ADD75A008DE9C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9DB416D25ADD75A008DE9C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E9DB416F25ADD75A008DE9C2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E9DB417125ADD75A008DE9C2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E9DB417225ADD75A008DE9C2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		E9DB417425ADD75A008DE9C2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E9DB417525ADD75A008DE9C2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E9DB417825ADD75A008DE9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9DB417A25ADD75C008DE9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9DB417C25ADD75C008DE9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DB417D25ADD75C008DE9C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DB418725ADD7E7008DE9C2 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		E9DB418825ADD7E7008DE9C2 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		E9DB418E25ADD843008DE9C2 /* ResultScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultScene.h; sourceTree = "<group>"; };
+		E9DB418F25ADD843008DE9C2 /* ResultScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DB416425ADD75A008DE9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DB415E25ADD75A008DE9C2 = {
+			isa = PBXGroup;
+			children = (
+				E9DB416925ADD75A008DE9C2 /* DarkKnight */,
+				E9DB416825ADD75A008DE9C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DB416825ADD75A008DE9C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB416725ADD75A008DE9C2 /* DarkKnight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DB416925ADD75A008DE9C2 /* DarkKnight */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB417125ADD75A008DE9C2 /* GameScene.h */,
+				E9DB417225ADD75A008DE9C2 /* GameScene.m */,
+				E9DB418E25ADD843008DE9C2 /* ResultScene.h */,
+				E9DB418F25ADD843008DE9C2 /* ResultScene.m */,
+				E9DB417425ADD75A008DE9C2 /* GameViewController.h */,
+				E9DB417525ADD75A008DE9C2 /* GameViewController.m */,
+				E9DB418525ADD763008DE9C2 /* SupportingFiles */,
+				E9DB417C25ADD75C008DE9C2 /* Info.plist */,
+			);
+			path = DarkKnight;
+			sourceTree = "<group>";
+		};
+		E9DB418525ADD763008DE9C2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB418625ADD7E7008DE9C2 /* Sounds */,
+				E9DB417D25ADD75C008DE9C2 /* main.m */,
+				E9DB416A25ADD75A008DE9C2 /* AppDelegate.h */,
+				E9DB416B25ADD75A008DE9C2 /* AppDelegate.m */,
+				E9DB416D25ADD75A008DE9C2 /* GameScene.sks */,
+				E9DB416F25ADD75A008DE9C2 /* Actions.sks */,
+				E9DB417725ADD75A008DE9C2 /* Main.storyboard */,
+				E9DB417A25ADD75C008DE9C2 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E9DB418625ADD7E7008DE9C2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB418725ADD7E7008DE9C2 /* background-music-aac.caf */,
+				E9DB418825ADD7E7008DE9C2 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DB416625ADD75A008DE9C2 /* DarkKnight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DB418125ADD75C008DE9C2 /* Build configuration list for PBXNativeTarget "DarkKnight" */;
+			buildPhases = (
+				E9DB416325ADD75A008DE9C2 /* Sources */,
+				E9DB416425ADD75A008DE9C2 /* Frameworks */,
+				E9DB416525ADD75A008DE9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkKnight;
+			productName = DarkKnight;
+			productReference = E9DB416725ADD75A008DE9C2 /* DarkKnight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DB415F25ADD75A008DE9C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E9DB416625ADD75A008DE9C2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E9DB416225ADD75A008DE9C2 /* Build configuration list for PBXProject "DarkKnight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9DB415E25ADD75A008DE9C2;
+			productRefGroup = E9DB416825ADD75A008DE9C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DB416625ADD75A008DE9C2 /* DarkKnight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DB416525ADD75A008DE9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DB418925ADD7E7008DE9C2 /* background-music-aac.caf in Resources */,
+				E9DB417925ADD75A008DE9C2 /* Main.storyboard in Resources */,
+				E9DB416E25ADD75A008DE9C2 /* GameScene.sks in Resources */,
+				E9DB417B25ADD75C008DE9C2 /* Assets.xcassets in Resources */,
+				E9DB417025ADD75A008DE9C2 /* Actions.sks in Resources */,
+				E9DB418A25ADD7E7008DE9C2 /* pew-pew-lei.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DB416325ADD75A008DE9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DB417325ADD75A008DE9C2 /* GameScene.m in Sources */,
+				E9DB419025ADD843008DE9C2 /* ResultScene.m in Sources */,
+				E9DB417625ADD75A008DE9C2 /* GameViewController.m in Sources */,
+				E9DB417E25ADD75C008DE9C2 /* main.m in Sources */,
+				E9DB416C25ADD75A008DE9C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9DB417725ADD75A008DE9C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DB417825ADD75A008DE9C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DB417F25ADD75C008DE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9DB418025ADD75C008DE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9DB418225ADD75C008DE9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkKnight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiejiapei.DarkKnight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9DB418325ADD75C008DE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DarkKnight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiejiapei.DarkKnight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DB416225ADD75A008DE9C2 /* Build configuration list for PBXProject "DarkKnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DB417F25ADD75C008DE9C2 /* Debug */,
+				E9DB418025ADD75C008DE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DB418125ADD75C008DE9C2 /* Build configuration list for PBXNativeTarget "DarkKnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DB418225ADD75C008DE9C2 /* Debug */,
+				E9DB418325ADD75C008DE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DB415F25ADD75A008DE9C2 /* Project object */;
+}
